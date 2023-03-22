@@ -1,4 +1,4 @@
-parkinson-detection
+Bank Customer Churn
 ==============================
 
 AI project methodology final project
