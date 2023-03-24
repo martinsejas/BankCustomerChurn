@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sameeraholysheikabdullah/Library/Mobile%20Documents/com~apple~CloudDocs/EPITA/TM2/Project%20Methodology/FinalProject/BankCustomerChurn/BankCustomerChurn/src/models/mlruns/0/046e9b3cfbd14e1a8997930b8bda1f7d/artifacts
+end_time: 1679656079296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 046e9b3cfbd14e1a8997930b8bda1f7d
+run_name: dashing-sponge-791
+run_uuid: 046e9b3cfbd14e1a8997930b8bda1f7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679656077461
+status: 3
+tags: []
+user_id: sameeraholysheikabdullah

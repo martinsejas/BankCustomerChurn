@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/sameeraholysheikabdullah/Library/Mobile%20Documents/com~apple~CloudDocs/EPITA/TM2/Project%20Methodology/FinalProject/BankCustomerChurn/BankCustomerChurn/src/models/mlruns/0/05ae9c3bf292408ab4539ed0d74e523c/artifacts
+end_time: 1679656068571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 05ae9c3bf292408ab4539ed0d74e523c
+run_name: mercurial-colt-138
+run_uuid: 05ae9c3bf292408ab4539ed0d74e523c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679656066749
+status: 3
+tags: []
+user_id: sameeraholysheikabdullah
