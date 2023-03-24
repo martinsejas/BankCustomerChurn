@@ -1,0 +1,8 @@
+Start Time,Duration,Run ID,Name,Source Type,Source Name,User,Status,C,accuracy,f1_score,preicison
+2023-03-24 12:08:50,2.0s,84b1062ed7b947d1ac31c5453d020bc2,auspicious-crane-523,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,100.0,0.865,0.6197183098591548,0.7284768211920529
+2023-03-24 12:08:41,2.0s,cd048b4defa943ac9d9574a78cadfc34,languid-conch-702,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,10.0,0.865,0.6197183098591548,0.7284768211920529
+2023-03-24 12:08:32,2.0s,cecca164ed564fadbdf865fe6b21a1cd,bold-trout-880,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,1.0,0.866,0.6214689265536723,0.7333333333333333
+2023-03-24 12:08:21,2.0s,350125b8c0d24ed394328a7135b96980,adorable-ant-865,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,0.1,0.862,0.6011560693641619,0.7323943661971831
+2023-03-24 12:08:09,2.2s,ba1fe7b9841a4f30af9b203d1803ee92,treasured-roo-775,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,0.01,0.853,0.5611940298507462,0.7175572519083969
+2023-03-24 12:07:57,1.8s,046e9b3cfbd14e1a8997930b8bda1f7d,dashing-sponge-791,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,0.001,0.851,0.5016722408026756,0.7894736842105263
+2023-03-24 12:07:46,1.8s,05ae9c3bf292408ab4539ed0d74e523c,mercurial-colt-138,LOCAL,train_model.py,sameeraholysheikabdullah,FINISHED,0.0001,0.826,0.2627118644067796,0.96875
