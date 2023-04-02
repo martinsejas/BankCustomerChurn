@@ -1,0 +1,9 @@
+name: methodology_proj
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      reg: {type: float, default: 0.001}
+    command: "python train_model.py {reg}"

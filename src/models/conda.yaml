@@ -1,0 +1,10 @@
+name: methodology_proj
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - scikit-learn==1.2.2
+      - mlflow>=1.0
+      - pandas==1.5.3
