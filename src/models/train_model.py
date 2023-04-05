@@ -23,8 +23,8 @@ from sklearn.metrics import classification_report
 
 fpath = os.path.dirname(os.path.abspath("__file__"+ "/../"))
 sys.path.append(os.path.join(fpath,"features"))
-
-from build_features import *
+import src.features.build_features
+#from features.build_features import *
 
 def split_train_test(X, y, size=0.1, seed=42):
     xtrain, xval, ytrain, yval = train_test_split(X, y, test_size=size, random_state=seed, stratify=y)
@@ -62,10 +62,10 @@ if __name__ == "__main__":
         features = X.columns
         categorical_cols = list(set(features) - set(numeric_cols))
 
-        processed_num_x = preprocess_numeric_data(numeric_cols, xtrain, xtest, xval)
-        processed_cat_x = preprocess_categorical_data(categorical_cols, xtrain, xtest, xval)
+        processed_num_x = build_features.preprocess_numeric_data(numeric_cols, xtrain, xtest, xval)
+        processed_cat_x = build_features.preprocess_categorical_data(categorical_cols, xtrain, xtest, xval)
 
-        xtrain_scl, xtest_scl, xval_scl = combine_processed_data(processed_num_x, processed_cat_x)
+        xtrain_scl, xtest_scl, xval_scl = build_features.combine_processed_data(processed_num_x, processed_cat_x)
 
         reg = float(sys.argv[1]) if len(sys.argv) > 1 else 0.001
 
