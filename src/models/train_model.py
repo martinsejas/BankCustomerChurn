@@ -23,7 +23,9 @@ from sklearn.metrics import classification_report
 
 fpath = os.path.dirname(os.path.abspath("__file__"+ "/../"))
 sys.path.append(os.path.join(fpath,"features"))
+
 import src.features.build_features
+from src.features import build_features
 #from features.build_features import *
 
 def split_train_test(X, y, size=0.1, seed=42):
