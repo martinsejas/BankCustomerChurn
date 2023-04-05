@@ -1,6 +1,7 @@
 import os
 import warnings
 import sys
+import joblib
 
 import mlflow
 import mlflow.sklearn
@@ -72,6 +73,7 @@ if __name__ == "__main__":
         with mlflow.start_run():
             poly = PolynomialFeatures(degree=3, include_bias=True)
             x_poly = poly.fit_transform(np.asarray(xtrain_scl))
+            joblib.dump(poly, "polynomial.joblib")
 
             poly_reg_model = LogisticRegression(class_weight={0: 1, 1: 1}, C=reg)
             poly_reg_model.fit(x_poly, ytrain)
@@ -85,6 +87,8 @@ if __name__ == "__main__":
             print("  Precision: %s" % preci)
             print("  f1-score: %s" % f1_sc)
             print("  Confusion Matrix:\n %s" % cm)
+
+            mlflow.sklearn.save_model(poly_reg_model, "model_logistic")
 
             mlflow.log_param("C", reg)
             mlflow.log_param("accuracy", acc)
