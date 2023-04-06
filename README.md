@@ -1,6 +1,10 @@
 Bank Customer Churn
 ==============================
 
+#### Collaborators: Martin Sejas & Sameera Holy
+
+## Project Objectives 
+
 Aim of this project is to mimic a real business case of calculating the Churn rate for a fictional bank accross three different European countries: France, Germany and Spain. Here we implement MLOps and made an industralized model through mlflow, as well as scripts that will automate prediction jobs. Additionally from our model we were able to extract the most impactful features to define customer strategy in a business context. 
 
 We encourage you to read the report found here as well as this readme to understand project functionality. 
