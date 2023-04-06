@@ -8,11 +8,11 @@ We encourage you to read the report found here as well as this readme to underst
 
 ## Project Deliverables
 
-- The **main** report can be found under the /reports/ folder called *Bank_Customer_Churn_MLFlow_Project_Reports.pdf*
+- The **main** report can be found here [Bank Customer Churn MLFlow Project Report](https://github.com/martinsejas/BankCustomerChurn/blob/main/reports/Bank_Customer_Churn_MLFlow_Project_Report.pdf) or under the /reports/ folder.
 - For project outputs: 
     - **Predictions on Test Data Set**: Can be found at the /project-outputs/ folder, the test data set and the prediction csv. 
     - **MLFlow Outputs**: Can be found at /src/models/mlruns, you can see the runs in /project-outputs/runs.csv, as well as figures under /reports/figures
-    - **SHAP Outputs**: You can find a report explaining the findings under /reports/ as *Exploring Shapley Values of Bank Customer Churn* as a pdf, and the notebook with the code under /notebooks/ named *1.1-exploring-shapley-values.ipynb* 
+    - **SHAP Outputs**: You can find a report explaining the findings under /reports/ or here [Exploring Shapley Values of Bank Customer Churn](https://github.com/martinsejas/BankCustomerChurn/blob/main/reports/Exploring%20Shapley%20Values%20of%20Bank%20Customer%20Churn.pdf) as a pdf, and the notebook with the code under /notebooks/ named [1.1-exploring-shapley-values.ipynb](https://github.com/martinsejas/BankCustomerChurn/blob/main/notebooks/1.1-exploring-shapley-values.ipynb)
 
 Project Organization
 ------------
